@@ -1,0 +1,36 @@
+/* Apico propiedades flex para la lista de navegación , también utilizo transform para ubicar los elementos donde más me gustan*/
+
+
+// Operaciones
+
+$padd: 15px;
+
+.flex-container-nav{
+
+    background-color: white;
+    padding: 1px 1px;
+
+    display: flex;
+    justify-content: center;
+
+    li {
+        padding: $padd*2;
+        transform: translateX(-50px);
+    
+        transition: all 2s ease-in;}
+    
+    // &:hover{ transform: scaleY(1.01)}}
+
+
+    div{
+        transform: translateX(-500px) scale(0.8,0.8);
+        animation-name: circulo;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+    }
+
+
+}
+
+

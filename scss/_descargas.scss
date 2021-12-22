@@ -1,0 +1,16 @@
+/* Aplico propiedades grid para la page descargas */
+
+.grid-container-descargas{
+    background-color:white;
+    padding: 1px;
+    grid-gap: 50px;
+
+    display: grid;
+
+    div{
+        background-color:white;
+        padding: 1px;
+        margin: auto;
+    }
+    
+}

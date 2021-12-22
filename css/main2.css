@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* Apico propiedades flex para la lista de navegación , también utilizo transform para ubicar los elementos donde más me gustan*/
+.flex-container-nav {
+  background-color: white;
+  padding: 1px 1px;
+  display: flex;
+  justify-content: center; }
+  .flex-container-nav li {
+    padding: 30px;
+    transform: translateX(-50px);
+    transition: all 2s ease-in; }
+  .flex-container-nav div {
+    transform: translateX(-500px) scale(0.8, 0.8);
+    animation-name: circulo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s; }
+
+/* Aplico propiedades grid para el header del home */
+.grid-container-home-about {
+  background-color: white;
+  padding: 1px 0;
+  display: grid; }
+
+.grid-container-home-about div {
+  background-image: url(../public/img/fondo-header2.jpg);
+  height: 750px;
+  width: 1850px;
+  background-color: white;
+  padding: 5px;
+  border: solid 1px white; }
+
+.formato-texto1 {
+  background-image: url(../public/img/fondo-header2.jpg);
+  height: 750px;
+  width: 1850px;
+  font-size: x-large;
+  font-weight: 900;
+  font-style: oblique;
+  color: white;
+  text-align: center; }
+
+/* Aplico propiedades grid para el main del home y ordeno los boxs alternando texto con imagenes */
+.grid-main-seccion1 {
+  display: grid;
+  grid-template-areas: 'txt1-main img1-main' 'img2-main txt2-main' 'txt3-main img3-main' 'img4-main txt4-main';
+  text-align: center;
+  grid-gap: 10px; }
+
+.grid-main-seccion1 div {
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.txt1-main {
+  grid-area: txt1-main;
+  text-align: center;
+  font-size: x-large; }
+
+.img1-main {
+  grid-area: img1-main; }
+
+.txt2-main {
+  grid-area: txt2-main;
+  font-size: x-large; }
+
+.img2-main {
+  grid-area: img2-main; }
+
+.txt3-main {
+  grid-area: txt3-main;
+  font-size: x-large; }
+
+.img3-main {
+  grid-area: img3-main; }
+
+.txt4-main {
+  grid-area: txt4-main;
+  font-size: x-large; }
+
+.img4-main {
+  grid-area: img4-main; }
+
+/* las fuentes de mi body provienen de Google fonts */
+/* Aplico propiedades grid para la page people */
+.grid-container-people {
+  background-color: white;
+  padding: 1px;
+  grid-gap: 50px;
+  display: grid; }
+  .grid-container-people div {
+    background-color: white;
+    padding: 1px;
+    margin: auto;
+    align-items: center; }
+
+/* Aplico propiedades de flex para ordenar las imagenes de la galeria */
+.flex-imagenes-galeria {
+  background-color: whitesmoke;
+  display: flex;
+  height: 30vp; }
+  .flex-imagenes-galeria div {
+    justify-content: center;
+    margin: 2px; }
+
+/* Aplico propiedades grid para la page descargas */
+.grid-container-descargas {
+  background-color: white;
+  padding: 1px;
+  grid-gap: 50px;
+  display: grid; }
+  .grid-container-descargas div {
+    background-color: white;
+    padding: 1px;
+    margin: auto; }
+
+/* Aplico propiedades grid para la page contacto */
+.grid-container-contacto {
+  background-color: white;
+  padding: 1px;
+  grid-gap: 50px;
+  display: grid; }
+  .grid-container-contacto div {
+    background-color: whitesmoke;
+    padding: 1px;
+    margin: auto; }
+
+/* Estilo de derechos reservados para el footer */
+#copyright {
+  color: red;
+  font-weight: 300;
+  text-align: center; }
+
+/* Aplico propiedades flex para los links externos*/
+.flex-container-links-externos {
+  background-color: thistle;
+  padding: 5px;
+  display: flex;
+  justify-content: center; }
+  .flex-container-links-externos li {
+    padding: 5px; }
+
+/* Estilos de titulos y subtitulos */
+.titulos-2 {
+  color: #29036e;
+  text-align: center; }
+
+.subtitulos {
+  color: #78c796;
+  text-align: center;
+  font-weight: 900; }
+
+/* Estilo de listas y de los links externos e internos  */
+.lista-redes {
+  text-decoration: none;
+  color: gray;
+  font-weight: 900; }
+
+.links-nav {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: x-large;
+  color: gray; }
+
+.links-clientes {
+  text-decoration: none;
+  color: gray;
+  font-weight: 900; }
+
+ul li {
+  display: inline-block;
+  padding: 1px 70px;
+  /* Saco los sunrayados de los li */
+  list-style-type: none; }
+
+body {
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Zen Maru Gothic', sans-serif; }

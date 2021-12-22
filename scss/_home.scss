@@ -1,0 +1,103 @@
+/* Aplico propiedades grid para el header del home */
+
+.grid-container-home-about {
+    background-color: white;
+    padding: 1px 0;
+
+    display: grid;
+ 
+}
+
+.grid-container-home-about div{
+
+    background-image: url(../public/img/fondo-header2.jpg);
+    height: 750px;
+    width: 1850px;
+    background-color: white;
+  
+    padding: 5px;
+    border: solid 1px white;
+}
+
+.formato-texto1{
+
+    background-image: url(../public/img/fondo-header2.jpg);
+    height: 750px;
+    width: 1850px;
+
+    font-size: x-large;
+    font-weight: 900;
+    font-style: oblique;
+    color: white;
+
+
+    text-align: center;
+   
+}
+
+/* Aplico propiedades grid para el main del home y ordeno los boxs alternando texto con imagenes */
+
+.grid-main-seccion1{
+
+    display: grid;
+    grid-template-areas: 
+    'txt1-main img1-main'
+    'img2-main txt2-main'
+    'txt3-main img3-main'
+    'img4-main txt4-main'
+    ;
+    text-align: center;
+    grid-gap: 10px
+}
+
+.grid-main-seccion1 div{
+
+    
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+}
+
+.txt1-main{
+    grid-area: txt1-main;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.img1-main{
+    grid-area: img1-main;
+}
+
+.txt2-main{
+    grid-area: txt2-main;
+    font-size:x-large ;
+}
+
+.img2-main{
+    grid-area: img2-main;
+}
+
+.txt3-main{
+    grid-area: txt3-main;
+    font-size: x-large;
+}
+
+.img3-main{
+    grid-area: img3-main;
+}
+
+.txt4-main{
+    grid-area: txt4-main;
+    font-size: x-large;
+}
+
+.img4-main{
+    grid-area: img4-main;
+}
+
+
+/* las fuentes de mi body provienen de Google fonts */

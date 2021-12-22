@@ -1,0 +1,17 @@
+/* Aplico propiedades grid para la page contacto */
+
+.grid-container-contacto{
+    background-color:white;
+    padding: 1px;
+    grid-gap: 50px;
+
+    display: grid;
+
+    div{
+        background-color:whitesmoke;
+        padding: 1px;
+        margin: auto;
+    
+    }
+    
+}

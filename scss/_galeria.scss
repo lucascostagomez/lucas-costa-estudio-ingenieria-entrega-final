@@ -1,0 +1,12 @@
+/* Aplico propiedades de flex para ordenar las imagenes de la galeria */
+
+.flex-imagenes-galeria {
+    background-color: whitesmoke;
+    display: flex;
+    height: 30vp;
+
+    div{
+        justify-content: center;
+        margin: 2px;
+    }
+}
