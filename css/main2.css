@@ -27,7 +27,6 @@
   color: white;
   text-align: center; }
 
-/* Aplico propiedades grid para el main del home y ordeno los boxs alternando texto con imagenes */
 .txt1-main {
   grid-area: txt1-main;
   text-align: center;
